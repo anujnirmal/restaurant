@@ -1,3 +1,116 @@
+/* Resetting browser defaults */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: Roboto, 'arial';
+}
+
+.container {
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 90%;
+}
+
+/* Header Section */
+
+header{
+    background-color: #0a3d62; 
+    height: 70px;   
+    color: #fff;
+    z-index: 2;
+}
+
+.header-logo{
+    width: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+.header-bot {
+    background-color: #b71540;
+    height: 10px;
+    display: flex;
+    color: #fff;
+}
+/* Top Navigation  */
+.top-menu{
+    float: right;
+    margin-top: 25px;
+}
+
+.top-menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+
+.top-menu li:last-child {
+    padding-right: 0;
+}
+
+li:hover {
+    color: hsl(344, 79%, 40%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+
+
+/* Header Ends Here */
+
+/* Body Starts Here */
+
+.backdrop {
+    width: 100%;
+    position: absolute;
+    top: -150px;
+    z-index: -1;
+}
+
+.title-body{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Begins Here
+   Bottom nav
+*/
+
+footer {
+    background-color: #b71540;
+    height: 30px;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer div {
+    opacity: 0.6;
+    text-align: center;
 }
